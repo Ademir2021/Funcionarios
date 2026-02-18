@@ -1,0 +1,33 @@
+.select-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.select-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.custom-select {
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  appearance: none; /* remove estilo padrão */
+}
+
+.custom-select:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+.custom-select:hover {
+  border-color: #888;
+}

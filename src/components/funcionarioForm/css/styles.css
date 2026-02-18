@@ -1,0 +1,129 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.table thead {
+    background-color: rgb(185, 182, 182);
+    color: rgb(240, 234, 234);
+}
+
+.table th,
+.table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.table tbody {
+    font-size: 14px;
+    color: rgb(75, 73, 73)
+}
+
+.table tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+.status-ativo {
+    color: #16a34a;
+    font-weight: bold;
+}
+
+.status-inativo {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.form-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.btn-novo-colaborador {
+    background-color: rgb(38, 202, 74);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.colaboradores-title {
+    color: grey;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(44, 43, 43);
+    text-decoration: none;
+    font-weight: 680;
+    margin-left: 16px;
+}
+
+.msg {
+    color: #ff4d4f;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.foto {
+    margin-top: 6px;
+    width: 50px;
+    height: 50px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.menu-container {
+  display: flex;
+  gap: 20px;
+  padding: 12px 20px;
+  /* background-color: #f5f5f5; */
+  border-radius: 8px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-link:hover {
+  color: #007bff;
+  transform: translateY(-2px);
+}
+
+.menu-link-of {
+  color: #333;
+}
+
+.progress {
+  border: none;
+  height: 5px;
+  background-color: gray; /* fundo */
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress::before {
+  content: "";
+  display: block;
+  height: 100%;
+  /* width: 100%; porcentagem do progresso */
+  background-color: #4caf50;
+}
+
+
+
